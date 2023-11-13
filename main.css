@@ -1,0 +1,44 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+h1,
+.container li a {
+    font-family: 'Nunito', sans-serif;
+}
+
+header {
+    padding: 16px 0;
+    background-color: #000000;
+    color: #FEF9FF;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0px auto;
+}
+
+.container img {
+    height: 50px;
+}
+
+.container nav li {
+    display: inline;
+    margin-left: 16px;
+}
+
+.container a {
+    color: #FEF9FF;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+}
